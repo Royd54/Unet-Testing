@@ -1,22 +1,18 @@
-# Naam Proefopdracht
-Hier komt een korte beschrijving van de proefopdracht. Wat heb je precies gedaan? 
-
-## Features
-Wanneer je een specifiek onderdeel wilt uitlichten kun je dat in deze sectie benoemen.
-
-- [Awesome Algoritme](link)
-- [Specifieke Mechanic](link)
-- [Iets unieks waar je trots op bent binnen de project](link)
+# GainPlay
+De proefopdracht hield in, dat er een multiplayer game gemaakt moest worden.
+Deze game moest vooral draaien over de server-side, omdat er op deze manier geen/weinig desync ontstaat.
+De spelers hebben hierdoor een betere experience, wat de game natuurlijk leuk maakt.
 
 ## Leerdoelen 
-Wat wil je bereiken met dit project? Formuleer dit kort, krachtig en haalbaar.
-- Het Flood-Fill algoritme snappen en toepassen
-- Het ontwikkelen van een generieke FSM.
-- etc. etc.
+Wat wil ik berijken met dit project:
+- Mijzelf introduceren aan Networking
+- Basic logica van Netwroking begrijpen
+- Verschil tussen client en server herkennen
 
 ## Bronnen
-Welke bronnen heb je gebruikt? Zowel youtube filmpjes als artikelen
+De bronnen die ik heb gebruikt zijn:
 
-- [The Guide To Game Design](link)
-- [Alleatoric Algorithms](link)
-- [Flood-Fill Wikipedia](link)
+- [Unet documentation](https://docs.unity3d.com/2018.4/Documentation/Manual/UNetOverview.html)
+- [Korte Unet intro](https://www.youtube.com/watch?v=0H_ikQp9aTI)
+- [Logica van networking](https://docs.unity3d.com/Manual/UNetActions.html)
+- [Logica van Commands en RPC's](https://www.youtube.com/watch?v=9VW7ctwvNok)
