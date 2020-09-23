@@ -4,7 +4,7 @@ Deze game moest vooral draaien over de server-side, omdat er op deze manier geen
 De spelers hebben hierdoor een betere experience, wat de game natuurlijk leuk maakt.
 
 ## Leerdoelen 
-Wat wil ik berijken met dit project:
+Wat wil ik bereiken met dit project:
 - Mijzelf introduceren aan Networking
 - Basic logica van Netwroking begrijpen
 - Verschil tussen client en server herkennen
