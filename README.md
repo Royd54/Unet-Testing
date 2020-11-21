@@ -12,6 +12,7 @@ Wat wil ik bereiken met dit project:
 ## Scripts 
 
 ### PlayerMovement
+[PlayerMovement](https://github.com/Royd54/Unet-Testing/blob/master/Assets/scripts/player/PlayerMovement.cs)
 Dit script zorgt voor de mogelijkheid om te bewegen in het spel.
 Zodra er gechecked is of de speler de locale speler is, kan de speler zich over het veld bewegen.
 De spelers kunnen ook de bal inspawnen met de spatie toets. 
@@ -19,16 +20,19 @@ Het spawnen wordt geregeld via de server. De client stuurt simpelweg een command
 Hierdoor zien alle spelers dezelfde bal.
 
 ### BallBehaviour
+[BallBehaviour](https://github.com/Royd54/Unet-Testing/blob/master/Assets/scripts/ball/BallBehaviour.cs)
 Dit script zorgt voor de beweging van de bal.
 Je kan zeggen dat dit script eigenlijk de core van de bal is, het script handled de client-side onderdelen van de ball bijvoorbeeld.
 Denk aan collisions, speed en angles.
 
 ### BallMover
+[BallMover](https://github.com/Royd54/Unet-Testing/blob/master/Assets/scripts/ball/BallMover.cs)
 Dit script zorgt voor de beweging van de bal over de server (positie calls).
 Dus dit script zorgt ervoor dat alle spelers de bal op de zelfde positie zien.
 Hierdoor is er geen desync en wordt de ball via de server geverifieerd.
 
 ### DestroyBall
+[DestroyBall](https://github.com/Royd54/Unet-Testing/blob/master/Assets/scripts/ball/DestroyBall.cs)
 Dit script zorgt voor het deleten van de bal en voor de scores van de spelers.
 De scores worden geupdate wanneer de ball een van de muren achter de spelers raakt.
 De score wordt daarna via de server gelijk gezet, zodat beide spelers dezelfde scores zien.
